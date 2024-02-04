@@ -202,10 +202,9 @@ section#foto {
 
 .show-more, .show-less {
     height: 44px;
-    width: 79px;
+    width: 98px;
     background: linear-gradient(#34ba22, #132910);
     color: antiquewhite;
-    padding: 8px 20px;
     margin: 10px;
     border: none;
     border-radius: 5px;
@@ -433,12 +432,12 @@ footer {
      }
      .show-more {
         display: inline-block;
-        margin-left: 131px;
+        margin-left: 160px;
     }
     
     .show-less {
         display: none;
-        margin-left: 131px;
+        margin-left: 160px;
     }
 
     .accessibility-summer, .accessibility-winter {
