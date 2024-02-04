@@ -202,9 +202,10 @@ section#foto {
 
 .show-more, .show-less {
     height: 44px;
-    width: 98px;
+    width: 79px;
     background: linear-gradient(#34ba22, #132910);
     color: antiquewhite;
+    padding: 8px 20px;
     margin: 10px;
     border: none;
     border-radius: 5px;
@@ -326,7 +327,7 @@ section#foto {
 }
 
 .arriv {
-    font-size: 20px;
+    font-size: 14px;
     padding-top: 30px;
 }
 
@@ -425,19 +426,18 @@ footer {
         filter: none;
      }
 
-   
-
      .hide {
         display: none;
      }
+
      .show-more {
         display: inline-block;
-        margin-left: 160px;
+        margin-left: 144px;
     }
     
     .show-less {
         display: none;
-        margin-left: 160px;
+        margin-left: 144px;
     }
 
     .accessibility-summer, .accessibility-winter {
