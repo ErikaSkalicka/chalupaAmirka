@@ -416,9 +416,11 @@ footer {
 
     .main-photo {
         padding-left: 3px;
-        width: 100%;
      }
 
+     .main-photo .winter {
+        width: 99%;
+     }
      .photo-gallery img {
         padding: 0 10px;
      }
@@ -435,20 +437,24 @@ footer {
     }
 
     .accessibility-summer, .accessibility-winter {
+        display: flex;
         text-align: left;
         margin-bottom: 40px;
-        font-size: 20px;
+        font-size: 18px;
         padding-left: 0;
     }
 
     .accessibility-winter {
-        font-size: 19px;
+        font-size: 18px;
         float: left;
+        padding-right: 0;
+        margin-right: 0;
     }
 
     .storno {
-        float: left;
-        padding-left: 0;
+        text-align: center;
+        padding-left: 37px;
+        font-size: 17px;
         padding-bottom: 41px;
     }
 
