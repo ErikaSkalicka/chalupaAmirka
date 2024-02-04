@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChalupaAmirka</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="lightbox.min.css">
+    
 </head>
 <body>
     <div id="container">
 
-        <header class="header">
+        <header>
             <nav class="nav-background">
                 <label class="name">Chalupa Amirka</label>   
-             <ul>
-                 <li><a class="active" href="#info">Info</a></li>
+             <ul class="menu">
+                 <li><a href="#info">Info</a></li>
                  <li><a href="#foto">Foto</a></li>
                  <li><a href="#pList">Ceník</a></li>
                  <li><a href="#cont">Kontakty</a></li>
              </ul>
+             <button class="hamburger"></button>
+             
             </nav>
 
          <div class="main-photo">
-            <div class="winter"></div>
             <div class="summer"></div>
+            <div class="winter"></div>
+            
          </div>
          
      </header>
@@ -31,40 +36,48 @@
         <section id="info">
             <div class="info">
                 <p class="nadpis">Informace o chalupě</p>
-                <p class="info-chalupa">Chalupa Amirka se nachází na Šumavě, ve vesničce Vrbice u Vacova. Byla postavena v roce 2019. Je moderně zařízena a vybavena. Vstoupíte přes chodbu do velké obývací místnosti spojené s kuchynní. Kuchyň je vybavena sklokeramickou deskou,  troubou, mikrovlnnou troubou, lednicí s mrazákem, rychlovarnou konvicí, kávovarem dolce gusto, mixérem, nádobím a myčkou na nádobí. V obývací místnosti je sedací souprava, LCD televize s DVD, rádio a krbová kamna. V přízemí je vám k dispozici také koupelna se sprchovým koutem a pračkou. V podkroví jsou tři samostatné ložnice vybavené dvoulůžkem. Chalupa Amirka je vytápěna podlahovým topením. V chladném počasí si můžete přitopit krbem. Pro děti jsou k dispozici deskové hry a hračky. V zimním období mají děti k dispozici sáně a boby. V chalupě je možnost úschovy 4 jízdních kol, nebo lyží. Parkování na vyhrazeném místě do 50m od chalupy.<br> Na místo se dostanete i autobusem z Prahy. Přijedete do Vacova, který je 1 km od chalupy.</p>
+                <p class="info-chalupa">Chalupa Amirka se nachází na Šumavě, ve vesničce Vrbice u Vacova. Byla postavena v roce 2019. Je moderně zařízena a vybavena. Vstoupíte přes chodbu do velké obývací místnosti spojené s kuchyní. Kuchyň je vybavena sklokeramickou deskou,  troubou, mikrovlnnou troubou, lednicí s mrazákem, rychlovarnou konvicí, kávovarem dolce gusto, mixérem, nádobím a myčkou na nádobí. V obývací místnosti je sedací souprava, LCD televize s DVD, rádio a krbová kamna. V přízemí je vám k dispozici také koupelna se sprchovým koutem a pračkou. V podkroví jsou tři samostatné ložnice vybavené dvoulůžkem. Chalupa Amirka je vytápěna podlahovým topením. V chladném počasí si můžete přitopit krbem. Pro děti jsou k dispozici deskové hry a hračky. V zimním období mají děti k dispozici sáně a boby. V chalupě je možnost úschovy 4 jízdních kol, nebo lyží. Parkování na vyhrazeném místě do 50m od chalupy.<br> Na místo se dostanete i autobusem z Prahy. Přijedete do Vacova, který je 1 km od chalupy.</p>
                 <p class="zahrada">
                     Před chalupou je malá, neoplocená zahrádka s posezením pod pergolou. Je zde možno využít přenosný gril a ohniště.
                 </p>
                 <p class="nadpis-dva">Informace o okolí</p>
                 <p class="info-okoli"> Chalupa je svým umístěním ideálním místem pro houbaře, turistiku, cykloturistiku a sjezdové či běžecké lyžování. Pro milovníky vodních sportů se nachází přibližné 1,5km od chalupy kemp Rohanov, kde je i zázemí pro děti. Chalupa je ideálním startovacím místem k návštěvě hradů - hrad Kašperk (15 km), hrad Rabí (23 km), hrad Strakonice (25 km). Další zajímavosti v okolí: Klostermannova rozhledna (8 km), rozhledna Hoslovice (9 km), Vodní mlýn Hoslovice (9 km), Hoštice u Volyně (20 km), Muzeum Šumavy (17 km), dělostřelecké opevnění ve Vimperku (20 km).</p>
                 <p class="lyze">Lyžařské areály</p>
-                <p class="lyze-info">Lyžařský areál Javorník (7 km), Ski areál Zadov (15 km), lyžařské středisko Nové Hutě (19 km) a ski areál Kašperské hory (18 km). </p>
+                <p class="lyze-info">Lyžařský areál Javorník (7 km), Ski areál Zadov (15 km), lyžařské středisko Nové Hutě (19 km), ski areál Kašperské hory (18 km) lyžařský areál Kvilda (24 km) </p>
                 <p class="vybavenost">Občanská vybavenost</p>
-                <p class="vybavenost-info">COOP, restaurace, pekárna, pošta, bankomat (Vacov) 1 km, supermarket a další občanská vybavenost (Vimperk) 20 km.</p>
+                <p class="vybavenost-info">COOP, restaurace, vyhlášená pekárna, pošta, bankomat (Vacov) 1 km, supermarket, cukrárna a další občanská vybavenost (Vimperk) 20 km.</p>
             </div>
         </section>
 
     <section id="foto">
         <h1 class="photo-title">Fotogalerie</h1>
 
-        <div class="photo-gallery">
-            <a href="img/1.jpg" data-lightbox="indooutdoor" data-title="Chalupa v létě"><img src="img/1.jpg"></a>
-            <a href="img/chalupazima.jpg" data-lightbox="indooutdoor" data-title="Chalupa v zimě"><img src="img/chalupazima.jpg"></a>    
-            <a href="img/obyvak.jpg" data-lightbox="indooutdoor" data-title="Obývák"><img src="img/obyvak.jpg"></a>    
-            <a href="img/krb.jpg" data-lightbox="indooutdoor" data-title="Krb"><img src="img/krb.jpg"></a>    
-            <a href="img/obkuch.jpg" data-lightbox="indooutdoor" data-title="Přízemí"><img src="img/obkuch.jpg"></a>    
-            <a href="img/kuchyn.jpg" data-lightbox="indooutdoor" data-title="Kuchyň"><img src="img/kuchyn.jpg"></a>    
-            <a href="img/koupena.jpg" data-lightbox="indooutdoor" data-title="Koupelna"><img src="img/koupena.jpg"></a>    
-            <a href="img/loznice.jpg" data-lightbox="indooutdoor" data-title="1.ložnice"><img src="img/loznice.jpg"></a>    
-            <a href="img/loznice2.jpg" data-lightbox="indooutdoor" data-title="2.ložnice"><img src="img/loznice2.jpg"></a>    
-            <a href="img/loznice3.jpg" data-lightbox="indooutdoor" data-title="3.ložnice"><img src="img/loznice3.jpg"></a>    
-            <a href="img/pergola.jpg" data-lightbox="indooutdoor" data-title="Pergola"><img src="img/pergola.jpg"></a>    
-            <a href="img/koupaliste.jpg" data-lightbox="indooutdoor" data-title="Koupaliště"><img src="img/koupaliste.jpg"></a>    
-            <a href="img/koupaliste2.jpg" data-lightbox="indooutdoor" data-title="Koupaliště"><img src="img/koupaliste2.jpg"></a>  
-            <a href="img/potok.jpg" data-lightbox="indooutdoor" data-title="Restaurace"><img src="img/potok.jpg"></a>      
-            <a href="img/restaurace.jpg" data-lightbox="indooutdoor" data-title="Restaurace"><img src="img/restaurace.jpg"></a>    
+        <div class="photo-gallery-box">
+            <div class="photo-gallery">
+                
+                <a href="img/1.jpg" data-lightbox="indooutdoor" data-title="Chalupa v létě"><img src="img/1.jpg"></a>
+                <a href="img/chalupazima.jpg" data-lightbox="indooutdoor" data-title="Chalupa v zimě"><img src="img/chalupazima.jpg"></a>    
+                <a href="img/obyvak.jpg" data-lightbox="indooutdoor" data-title="Obývák"><img src="img/obyvak.jpg"></a>   
+                <a href="img/krb.jpg" data-lightbox="indooutdoor" data-title="Krb" class="hide"><img src="img/krb.jpg"></a>    
+                <a href="img/obkuch.jpg" data-lightbox="indooutdoor" data-title="Přízemí" class="hide"><img src="img/obkuch.jpg"></a>    
+                <a href="img/kuchyn.jpg" data-lightbox="indooutdoor" data-title="Kuchyň" class="hide"><img src="img/kuchyn.jpg"></a>    
+                <a href="img/koupena.jpg" data-lightbox="indooutdoor" data-title="Koupelna" class="hide"><img src="img/koupena.jpg"></a>    
+                <a href="img/loznice.jpg" data-lightbox="indooutdoor" data-title="1.ložnice" class="hide"><img src="img/loznice.jpg"></a>    
+                <a href="img/loznice2.jpg" data-lightbox="indooutdoor" data-title="2.ložnice" class="hide"><img src="img/loznice2.jpg"></a>    
+                <a href="img/loznice3.jpg" data-lightbox="indooutdoor" data-title="3.ložnice" class="hide"><img src="img/loznice3.jpg"></a>    
+                <a href="img/pergola.jpg" data-lightbox="indooutdoor" data-title="Pergola" class="hide"><img src="img/pergola.jpg"></a>    
+                <a href="img/koupaliste.jpg" data-lightbox="indooutdoor" data-title="Koupaliště" class="hide"><img src="img/koupaliste.jpg"></a>    
+                <a href="img/koupaliste2.jpg" data-lightbox="indooutdoor" data-title="Koupaliště" class="hide"><img src="img/koupaliste2.jpg"></a>  
+                <a href="img/potok.jpg" data-lightbox="indooutdoor" data-title="Restaurace" class="hide"><img src="img/potok.jpg"></a>      
+                <a href="img/restaurace.jpg" data-lightbox="indooutdoor" data-title="Restaurace" class="hide"><img src="img/restaurace.jpg"></a>     
+            </div>
+            <button class="show-more">Zobrazit více</button> 
+                <button class="show-less">Zobrazit méně</button>
         </div>
+        
+        
     </section>
+        
 
     <section id="pList">
         <h1 class="list">Ceník</h1>
@@ -105,11 +118,11 @@
             <div class="deposit-text">
                 <p>Vratná kauce 3000 Kč. Povlečení za příplatek 100 Kč/ povlečení</p>
             </div>
-            <p class="arriv">** Příjezd po 15 hodině. Uvolnění objektu do 10 hodin</p>
+            <p class="arriv">* Příjezd po 15 hodině. Uvolnění objektu do 10 hodin</p>
         </div> 
-        
+        </section>
      </main>
-    </section>
+   
     
     <section id="cont">
      <footer>
